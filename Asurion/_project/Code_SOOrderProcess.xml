@@ -1,0 +1,26 @@
+﻿<Graph ClassName="SOOrderProcess" Source="#CDATA" IsNew="True" FileType="ExistingGraph">
+    <CDATA name="Source"><![CDATA[using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using PX.Data;
+using PX.Objects.AR;
+using PX.Objects.CR;
+using PX.TM;
+using PX.Objects.RQ;
+using PX.Objects.CS;
+using PX.Objects.AR.MigrationMode;
+using PX.Objects;
+using PX.Objects.SO;
+
+namespace PX.Objects.SO
+{
+	public class SOOrderProcess_Extension : PXGraphExtension<SOOrderProcess>
+	{
+		#region Event Handlers
+
+		#endregion
+	}
+}]]></CDATA>
+</Graph>
